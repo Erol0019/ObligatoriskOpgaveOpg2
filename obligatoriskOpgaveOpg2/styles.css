@@ -1,0 +1,41 @@
+
+    .header{
+        text-align: center;
+        border: 40px solid rgb(219, 243, 0);
+        margin-top: 60px;
+        font-size: 140%; width: 120px;
+    }
+    .middle{
+        text-align:left;
+    }
+    
+    .sidebar {
+        height: 100%; 
+        width: 80px; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background-color: #4cff06; 
+        padding-top: 20px;
+      }
+      
+      .sidebar a{
+        padding: 8px 12px 8px 16px;
+        text-decoration: none;
+        font-size: 45px;
+        color: #ffffff;
+        display: block;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;  
+        pointer-events: none;
+      }
+      
+      .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -20px;
+        margin-left: -10px;
+      }
